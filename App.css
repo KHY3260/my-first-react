@@ -1,0 +1,79 @@
+/* 컨테이너 스타일 */
+.Olympic-Container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* 폼 스타일 */
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+form button[type="button"] {
+  background-color: #ff9900;
+  color: white;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #003366;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* 삭제 버튼 스타일 */
+button.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

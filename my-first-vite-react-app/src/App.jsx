@@ -26,8 +26,7 @@ function App() {
     resetFields();
   };
 
-  const updateCountry = (event) => {
-    event.preventDefault();
+  const updateCountry = () => {
     const updatedCountries = countries.map((item) =>
       item.country === medals.country ? medals : item
     );
